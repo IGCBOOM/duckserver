@@ -45,22 +45,22 @@ class Ducky
 // audio_alert = setTimeout(() => {audio_alert_elem.style.animationName = "animateinalert" }, 4000);
 audio = new Audio('funkytown.webm');
 audio.volume = 0.05;
-audio.paused = false;
+//audio.paused = false;
 audio.play();
 
 // i genuinely never thought that i would touch these files ever again, but here i am
-onclick = () => {
+//onclick = () => {
 	//clearTimeout(audio_alert)
 	//audio_alert_elem.style.animationFillMode = "backwards"; // hides it
-	audio.volume = 0.05;
-	if (audio.paused) {
-		audio.play();
-	} 
-	else
-	{
-		audio.pause();
-	}
-}
+	//audio.volume = 0.05;
+	//if (audio.paused) {
+		//audio.play();
+	//} 
+	//else
+	//{
+		//audio.pause();
+	//}
+//}
 
 
 duckies = []
