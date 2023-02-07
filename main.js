@@ -45,6 +45,7 @@ class Ducky
 // audio_alert = setTimeout(() => {audio_alert_elem.style.animationName = "animateinalert" }, 4000);
 audio = new Audio('funkytown.webm');
 audio.volume = 0.05;
+audio.paused = false;
 audio.play();
 
 // i genuinely never thought that i would touch these files ever again, but here i am
